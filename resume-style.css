@@ -1,0 +1,56 @@
+
+/* ##### CONTAINER OF IDs ##### */
+
+#contact-information-header {
+    text-decoration: underline;
+}
+
+#education-header {
+    text-decoration: underline;
+}
+
+#university {
+    font-weight: normal;
+}
+
+#degree {
+    font-weight: normal;
+}
+
+#gpa {
+    font-weight: normal;
+}
+
+#major {
+    font-weight: normal;
+}
+
+#graduation {
+    font-weight: normal;
+}
+
+/* ##### CONTAINER OF CLASSES ##### */
+
+.content-block-one h5 {
+    display: inline;
+    margin-right: 10px;
+}
+
+.content-block-one p{
+    display: inline;
+    margin: 0px;
+}
+
+.content-block-two h5 {
+    display: inline;
+    margin-right: 10px;
+}
+
+.content-block-two p {
+    display: inline;
+    margin: 0px;
+}
+
+
+
+
