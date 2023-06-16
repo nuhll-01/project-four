@@ -1,56 +1,44 @@
-
-/* ##### CONTAINER OF IDs ##### */
-
-#contact-information-header {
-    text-decoration: underline;
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(204, 174, 133);
 }
 
-#education-header {
-    text-decoration: underline;
-}
-
-#university {
+#main-header {
+    text-align: center; 
+    text-decoration: none;
+    padding-inline: 5px;
+    padding-bottom: 10px;
     font-weight: normal;
 }
 
-#degree {
-    font-weight: normal;
-}
-
-#gpa {
-    font-weight: normal;
-}
-
-#major {
-    font-weight: normal;
-}
-
-#graduation {
-    font-weight: normal;
-}
-
-/* ##### CONTAINER OF CLASSES ##### */
-
-.content-block-one h5 {
+.generic-horizontal-line {
+    border: none; /* Remove default border */
+    border-top: 2px solid black; /* Add a custom border */
+    height: 5px; /* Adjust the height of the line */
+    margin: 0px 0; /* Optional margin adjustment */
+  }
+  
+.format-content-block h5 {
     display: inline;
     margin-right: 10px;
 }
 
-.content-block-one p{
+.format-content-block h2 {
+    text-align: left; 
+    font-weight:500;
+    padding-inline:2px;
+    padding-bottom: 5px;
+}
+
+.format-content-block p{
     display: inline;
     margin: 0px;
 }
 
-.content-block-two h5 {
-    display: inline;
-    margin-right: 10px;
+.set-weight-normal {
+    font-weight: normal;
 }
 
-.content-block-two p {
-    display: inline;
-    margin: 0px;
+.set-underline-text {
+    text-decoration: underline 2px;
 }
-
-
-
-
