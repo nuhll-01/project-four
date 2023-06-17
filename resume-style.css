@@ -1,14 +1,63 @@
-body {
+body { 
     font-family:'Courier New', Courier, monospace;
     background-color: rgb(204, 174, 133);
+    border-style: solid;
+    border-width: 2px;
 }
 
 #main-header {
     text-align: center; 
     text-decoration: none;
-    padding-inline: 5px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 4px;
     font-weight: normal;
+    font-size: 35px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 15px 15px 5px 5px;
+    margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
+}
+
+.content-block-border-one {
+    border-style: solid;
+    border-width: 3px 3px; /* 3px top and bottom, 3px left and right */
+    background-color: rgb(203, 177, 145, 0.8); /* Similar color as 'body background color' + 90% transparency */
+    padding-left: 4px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
+    border-radius: 5px 5px 5px 5px; /* Makes the corners of the border rounded */
+}
+
+.content-block-border-two {
+    border-style: solid;
+    border-width: 3px 3px; /* 3px top and bottom, 3px left and right */
+    background-color: rgb(203, 177, 145, 0.6); /* Similar color as 'body background color' + 60% transparency */
+    padding-left: 4px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
+    border-radius: 5px 5px 5px 5px; /* Makes the corners of the border rounded */
+}
+
+.content-block-border-three {
+    border-style: solid;
+    border-width: 3px 3px; /* 3px top and bottom, 3px left and right */
+    background-color: rgb(203, 177, 145, 0.2); /* Similar color as 'body background color' + 40% transparency */
+    padding-left: 4px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
+    border-radius: 5px 5px 5px 5px; /* Makes the corners of the border rounded - top-left = 5px | top-right = 5px | bottom-right = 5px | bottom-left = 5px */
+}
+
+
+.format-content-block h5 {
+    display: inline;
+}
+
+.format-content-block h2 {
+    text-align: center; 
+    font-weight:500;
+    font-size: 25px;
+    padding-inline:2px;
+    padding-bottom: 5px;
 }
 
 .generic-horizontal-line {
@@ -16,21 +65,9 @@ body {
     border-top: 2px solid black; /* Add a custom border */
     height: 5px; /* Adjust the height of the line */
     margin: 0px 0; /* Optional margin adjustment */
-  }
-  
-.format-content-block h5 {
-    display: inline;
-    margin-right: 10px;
-}
+} 
 
-.format-content-block h2 {
-    text-align: left; 
-    font-weight:500;
-    padding-inline:2px;
-    padding-bottom: 5px;
-}
-
-.format-content-block p{
+.format-content-block p {
     display: inline;
     margin: 0px;
 }
@@ -42,3 +79,10 @@ body {
 .set-underline-text {
     text-decoration: underline 2px;
 }
+
+/*
+- WILL USE LATER! -
+.set-font-size {
+    font-size: 32px;
+}
+*/
