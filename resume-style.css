@@ -1,8 +1,13 @@
 body { 
     font-family:'Courier New', Courier, monospace;
-    background-color: rgb(204, 174, 133);
+    background-image: radial-gradient(rgba(204, 178, 152, 0.6),rgba(143, 122, 83, 0.8));
     border-style: solid;
     border-width: 2px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul {
+    list-style-type: circle;
 }
 
 #main-header {
@@ -12,41 +17,125 @@ body {
     padding-bottom: 4px;
     font-weight: normal;
     font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
     border-left: 3px solid;
     border-right: 3px solid;
     border-top: 3px solid;
     border-bottom: 3px solid;
-    border-radius: 15px 15px 5px 5px;
+    border-radius: 15px 15px 6px 6px;
+    box-shadow: 3.4px 6.7px 6.7px hsl(0deg 0% 0% / 0.40); /* This will add shadow around the border */
+    /*
+    For safe keeps, don't delete right now.
+    background-color: rgb(204, 178, 152, 1); /* Similar color as 'body background color' + 90% transparency 
+    */
+    background-image: linear-gradient(50deg,rgba(204, 178, 152, 1),rgba(143, 122, 83, 0.2));
     margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
 }
+
+/* Linear Gradient - Top to Bottom Design - I'm assuming this is the default design */
+#set-gradient-color {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow);
+  }
 
 .content-block-border-one {
     border-style: solid;
     border-width: 3px 3px; /* 3px top and bottom, 3px left and right */
-    background-color: rgb(203, 177, 145, 0.8); /* Similar color as 'body background color' + 90% transparency */
-    padding-left: 4px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    border-radius: 8px 8px 8px 8px; /* Makes the corners of the border rounded */
+    box-shadow: 1px 1px 10px; /* This will add shadow around the border */
+    /* 
+    background-color: rgb(203, 177, 145, 1); /* Similar color as 'body background color' + 100% transparency 
+    */
+    background-image: linear-gradient(185deg,rgba(204, 178, 152, 0.9),rgba(143, 122, 83, 0.2));
+    padding-left: 6px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    padding-top: 4px;
+    padding-bottom: 4px;
     margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
-    border-radius: 5px 5px 5px 5px; /* Makes the corners of the border rounded */
 }
 
 .content-block-border-two {
     border-style: solid;
     border-width: 3px 3px; /* 3px top and bottom, 3px left and right */
-    background-color: rgb(203, 177, 145, 0.6); /* Similar color as 'body background color' + 60% transparency */
-    padding-left: 4px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    border-radius: 8px 8px 8px 8px; /* Makes the corners of the border rounded */
+    box-shadow: 1px 1px 10px; /* This will add shadow around the border */
+    /*
+    background-color: rgb(203, 177, 145, 0.8); /* Similar color as 'body background color' + 80% transparency 
+    */
+    background-image: linear-gradient(352deg,rgba(204, 178, 152, 1),rgba(143, 122, 83, 0.2));
+    padding-left: 6px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    padding-top: 4px;
+    padding-bottom: 4px;
     margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
-    border-radius: 5px 5px 5px 5px; /* Makes the corners of the border rounded */
 }
 
 .content-block-border-three {
     border-style: solid;
     border-width: 3px 3px; /* 3px top and bottom, 3px left and right */
-    background-color: rgb(203, 177, 145, 0.2); /* Similar color as 'body background color' + 40% transparency */
-    padding-left: 4px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    border-radius: 8px 8px 8px 8px; /* Makes the corners of the border rounded - top-left = 5px | top-right = 5px | bottom-right = 5px | bottom-left = 5px */
+    box-shadow: 1px 1px 10px; /* This will add shadow around the border */
+    /*
+    background-color: rgb(203, 177, 145, 0.6); /* Similar color as 'body background color' + 60% transparency 
+    */
+    background-image: linear-gradient(392deg,rgba(208, 178, 152, 1),rgba(143, 122, 83, 0.2));
+    padding-left: 6px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    padding-top: 4px;
+    padding-bottom: 4px;
     margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
-    border-radius: 5px 5px 5px 5px; /* Makes the corners of the border rounded - top-left = 5px | top-right = 5px | bottom-right = 5px | bottom-left = 5px */
 }
 
+.content-block-border-four {
+    border-style: solid;
+    border-width: 3px 3px; /* 3px top and bottom, 3px left and right */
+    border-radius: 8px 8px 8px 8px; /* Makes the corners of the border rounded - top-left = 5px | top-right = 5px | bottom-right = 5px | bottom-left = 5px */
+    box-shadow: 1px 1px 10px; /* This will add shadow around the border */
+    /*
+    background-color: rgb(203, 177, 145, 0.4); /* Similar color as 'body background color' + 40% transparency 
+    */
+    background-image: linear-gradient(180deg,rgba(204, 178, 152, 1),rgba(143, 122, 83, 0.2));
+    padding-left: 6px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
+}
+
+.content-block-border-five {
+    border-style: solid;
+    border-width: 3px 3px; /* 3px top and bottom, 3px left and right */
+    border-radius: 6px 6px 15px 15px; /* Makes the corners of the border rounded - top-left = 5px | top-right = 5px | bottom-right = 5px | bottom-left = 5px */
+    box-shadow: 1px 1px 10px; /* This will add shadow around the border */
+    /*
+    background-color: rgb(203, 177, 145, 0.2); /* Similar color as 'body background color' + 20% transparency 
+    */
+    background-image: linear-gradient(210deg,rgba(225, 191, 158, 0),rgba(143, 122, 83, 0.4));
+    padding-left: 8px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
+}
+
+.content-block-border-six {
+    border-style: solid;
+    border-width: 3px 3px; /* 3px top and bottom, 3px left and right */
+    border-radius: 6px 6px 15px 15px; /* Makes the corners of the border rounded - top-left = 5px | top-right = 5px | bottom-right = 5px | bottom-left = 5px */
+    box-shadow: 1px 1px 10px; /* This will add shadow around the border */
+    /*
+    background-color: rgb(203, 177, 145, 0.2); /* Similar color as 'body background color' + 20% transparency 
+    */
+    background-image: linear-gradient(280deg,rgba(225, 191, 158, 1),rgba(143, 122, 83, 0.2));
+    padding-left: 8px; /* Reminder for creator: 'padding-left' will create space <h5> elements */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 10px 10px 10px 10px; /* top = 10px | right = 10px | bottom = 10px | left = 10px */
+}
+
+.format-objective-paragraph {
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .format-content-block h5 {
     display: inline;
@@ -64,7 +153,7 @@ body {
     border: none; /* Remove default border */
     border-top: 2px solid black; /* Add a custom border */
     height: 5px; /* Adjust the height of the line */
-    margin: 0px 0; /* Optional margin adjustment */
+    margin: 0px 120px; /* Optional margin adjustment */
 } 
 
 .format-content-block p {
@@ -80,9 +169,10 @@ body {
     text-decoration: underline 2px;
 }
 
-/*
-- WILL USE LATER! -
 .set-font-size {
-    font-size: 32px;
+    font-size: 30px;
 }
-*/
+
+.set-text-center {
+    text-align: center;
+}
